@@ -1,0 +1,21 @@
+{
+    "name": "willwashburn/phpunit-port-canary",
+    "description": "Find tests that are making external requests",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "WillWashburn": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Will Washburn",
+            "email": "will.washburn@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpunit/phpunit": "4.3.*"
+    }
+}

@@ -1,0 +1,19 @@
+<phpunit
+        backupGlobals="false"
+        convertErrorsToExceptions="true"
+        convertWarningsToExceptions="true"
+        convertNoticesToExceptions="true"
+        strict="true"
+        verbose="false"
+        colors="true">
+
+    <listeners>
+        <listener class="\WillWashburn\PortListener" file="../../src/PortListener.php"/>
+    </listeners>
+
+    <testsuites>
+        <testsuite name="tests">
+            <directory>./fixture</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
